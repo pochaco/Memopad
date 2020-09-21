@@ -15,6 +15,9 @@
 		5DBB6E03250D01250081013F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB6E01250D01250081013F /* LaunchScreen.storyboard */; };
 		5DBB6E0E250D01260081013F /* MemopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB6E0D250D01260081013F /* MemopadTests.swift */; };
 		5DBB6E19250D01260081013F /* MemopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB6E18250D01260081013F /* MemopadUITests.swift */; };
+		5DBB6E27250D019F0081013F /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB6E26250D019E0081013F /* MemoViewController.swift */; };
+		5DBB6E29250D0B990081013F /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB6E28250D0B990081013F /* iphone.png */; };
+		5DBB6E2B250D0BCD0081013F /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB6E2A250D0BCD0081013F /* haikei.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5DBB6E14250D01260081013F /* MemopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBB6E18250D01260081013F /* MemopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadUITests.swift; sourceTree = "<group>"; };
 		5DBB6E1A250D01260081013F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBB6E26250D019E0081013F /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		5DBB6E28250D0B990081013F /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
+		5DBB6E2A250D0BCD0081013F /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		5DBB6DF5250D01210081013F /* Memopad */ = {
 			isa = PBXGroup;
 			children = (
+				5DBB6E2A250D0BCD0081013F /* haikei.jpg */,
+				5DBB6E28250D0B990081013F /* iphone.png */,
 				5DBB6DF6250D01210081013F /* AppDelegate.swift */,
 				5DBB6DF8250D01210081013F /* SceneDelegate.swift */,
 				5DBB6DFA250D01210081013F /* ViewController.swift */,
@@ -106,6 +114,7 @@
 				5DBB6DFF250D01250081013F /* Assets.xcassets */,
 				5DBB6E01250D01250081013F /* LaunchScreen.storyboard */,
 				5DBB6E04250D01260081013F /* Info.plist */,
+				5DBB6E26250D019E0081013F /* MemoViewController.swift */,
 			);
 			path = Memopad;
 			sourceTree = "<group>";
@@ -232,7 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBB6E29250D0B990081013F /* iphone.png in Resources */,
 				5DBB6E03250D01250081013F /* LaunchScreen.storyboard in Resources */,
+				5DBB6E2B250D0BCD0081013F /* haikei.jpg in Resources */,
 				5DBB6E00250D01250081013F /* Assets.xcassets in Resources */,
 				5DBB6DFE250D01210081013F /* Main.storyboard in Resources */,
 			);
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBB6E27250D019F0081013F /* MemoViewController.swift in Sources */,
 				5DBB6DFB250D01210081013F /* ViewController.swift in Sources */,
 				5DBB6DF7250D01210081013F /* AppDelegate.swift in Sources */,
 				5DBB6DF9250D01210081013F /* SceneDelegate.swift in Sources */,
